@@ -5,8 +5,9 @@
 
 ----------------
 
--* Has been tested with NodeMCU v1.0 and Arduino IDE 1.6.5-r5 in Windows 10 *-
- 
+* Contains espWiFi2eeprom  // https://github.com/nikant/espWiFi2eeprom
+* Has been tested with NodeMCU v1.0 and Arduino IDE 1.6.5-r5 in Windows 10 
+
 ----------------
 
 This program is free software: you can redistribute it and/or modify
