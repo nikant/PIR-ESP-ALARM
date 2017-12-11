@@ -6,6 +6,7 @@
 ----------------
 
 * Contains espWiFi2eeprom  // https://github.com/nikant/espWiFi2eeprom
+* You will need an IFTTT account and a webhook maker key // https://ifttt.com/maker_webhooks // https://duckduckgo.com/?q=ifttt+webhooks+tutorial&t=hj&ia=web
 * Has been tested with NodeMCU v1.0 and Arduino IDE 1.6.5-r5 in Windows 10 
 
 ----------------
