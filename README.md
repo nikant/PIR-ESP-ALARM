@@ -1,7 +1,7 @@
 # PIR sensor alarm with esp8266 and IFTTT webhooks (maker)
 
 
-
+* Info and schematic: https://nobugsjustfeatures.wordpress.com/2017/12/11/pir-sensor-alarm-with-esp8266-and-ifttt-webhooks-maker/
 
 ----------------
 
