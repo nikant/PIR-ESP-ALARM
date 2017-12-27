@@ -77,7 +77,7 @@ void getPirValue(void)
     pirValue = digitalRead(pirsensor);
     if (pirValue == 1) {
       startWiFiAndWake();
-      SendIftttMaker("piralarmtrigger", IftttMakerKey, "PIRALRM__MOTION__!!!!");
+      SendIftttMaker("piralarmtrigger", IftttMakerKey, "!!!!__PIRALRM__MOTION__!!!!");
 
       pirValue = 0;
       stopWiFiAndSleep();
