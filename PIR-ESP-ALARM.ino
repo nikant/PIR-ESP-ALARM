@@ -9,7 +9,7 @@
 #define ONBOARDLED 2
 
 #define delaytime 25 // initial delay time in seconds
-
+#define longdelaytime 45 // delay time between alarms
 
 // replace with your channel's IFTTT MAKER key
 String IftttMakerKey = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // IFTTT account
@@ -83,7 +83,7 @@ void getPirValue(void)
       stopWiFiAndSleep();
       // delay for PIR sensor (reset from HIGH to LOW, no need for too many alarms)
       // send2web has a 4 second delay + a delay of reconnecting to WiFi, if WiFi connects slow lower the delay value here
-      delay(15000); 
+      delay(longdelaytime * 1000); 
     }
   } else {
     switchmessage = false;
